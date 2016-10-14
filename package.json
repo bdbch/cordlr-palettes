@@ -1,0 +1,28 @@
+{
+  "name": "cordlr-palettes",
+  "version": "0.0.1",
+  "description": "Color Palette generator for Cordlr.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/db2k/cordlr-palettes.git"
+  },
+  "keywords": [
+    "cordlr",
+    "colors",
+    "palette",
+    "generator"
+  ],
+  "author": "Dominik Biedebach",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/db2k/cordlr-palettes/issues"
+  },
+  "homepage": "https://github.com/db2k/cordlr-palettes#readme",
+  "dependencies": {
+    "color-scheme": "github:c0bra/color-scheme-js"
+  }
+}
