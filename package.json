@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/db2k/cordlr-palettes#readme",
   "dependencies": {
-    "color-scheme": "github:c0bra/color-scheme-js"
+    "color-scheme": "github:c0bra/color-scheme-js",
+    "color": "^0.11.3"
   }
 }
