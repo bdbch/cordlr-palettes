@@ -26,7 +26,13 @@ function palettes(bot, config) {
       let returnedColors = returnedScheme.colors()
       returnedColors.unshift(options.color)
       const colorString = returnedColors.join('-')
-      message.reply('Here is your palette: https://coolors.co/' + colorString)
+      message.reply('Here is your palette: https://coolors.co/' + colorString, {
+        embed: {
+          image: {
+            url: 'https://coolors.co/export/png/' + colorString
+          }
+        }
+      })
     } catch (e) {
       message.reply(e)
     }
